@@ -10,6 +10,8 @@ namespace HelloDotNetCore
         {
             Console.WriteLine("Hello World!");
 
+            #region Basics
+
             //Input input = new Input();
 
             // HelloMethods obj=new HelloMethods();
@@ -44,9 +46,16 @@ namespace HelloDotNetCore
             //float area2 = c2.CalculateArea();
             //Console.WriteLine("area={0}", area2);
 
+
+
+            #endregion
+
+            #region OOPS
             //Inheritance (is a)
             Employee employee = new Employee();
-            Employee employe1= new FullTimeEmployee();// a parent class reference can refer to child class instance
+            Employee employe1 = new FullTimeEmployee();// a parent class reference can refer to child class instance
+
+            #endregion
 
 
 
